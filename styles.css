@@ -1,1 +1,38 @@
+.container {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    margin: 0 auto;
+    width: 70%;
+    padding: 10px;
+    font: 13px/1.5 sans-serif;
+    font-size: 125%;
+    text-align: justify;
+}
 
+    .container p a {
+        text-decoration: none;
+        color: #0645AD;
+        outline: none;
+        white-space: nowrap;
+        unicode-bidi: embed;
+    }
+
+        .container p a:hover {
+            text-decoration: underline;
+        }
+
+.welcome {
+    text-align: right;
+}
+
+.imageLinks {
+    padding: 0.5em 1em;
+}
+
+    .imageLinks a {
+        display: inline-block;
+        max-width: 25%;
+    }
