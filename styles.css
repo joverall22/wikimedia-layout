@@ -1,13 +1,14 @@
-.container p {
+.container {
     display: block;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
     margin: 0 auto;
+    width: 70%;
     padding: 10px;
     font: 13px/1.5 sans-serif;
-    font-size: 150%;
+    font-size: 125%;
     text-align: justify;
 }
 
@@ -23,26 +24,15 @@
             text-decoration: underline;
         }
 
-    .container p.welcome {
-        text-align: right;
-        font-weight: bold;
-    }
-
-.cell {
-    display: inline-block;
-    width: 260px;
-    margin-right: 10px;
-    text-align: center;
+.welcome {
+    text-align: right;
 }
 
-footer {
-    width: 70%;
-    margin-top: 20px;
-    border-top: 1px solid lightgray;
-    font: 13px/1.5 sans-serif;
-    text-align: center;
+.imageLinks {
+    padding: 0.5em 1em;
 }
 
-    footer p a {
-        padding-right: 20px;
+    .imageLinks a {
+        display: inline-block;
+        max-width: 25%;
     }
