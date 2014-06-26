@@ -28,7 +28,7 @@
         font-weight: bold;
     }
 
-.cell {
+.links div {
     display: inline-block;
     width: 260px;
     margin-right: 10px;
